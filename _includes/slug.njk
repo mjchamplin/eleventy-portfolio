@@ -1,0 +1,17 @@
+---
+title: Template fallback
+---
+
+<!doctype html>
+<html>
+  <head>
+    <title>
+      {{ title }}
+    </title>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <h2>{{ florps | safe }}</h2>
+    <p>{{ content | safe }}</p>
+  </body>
+</html>
